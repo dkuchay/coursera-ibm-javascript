@@ -34,3 +34,8 @@ function clearInputs() {
     document.getElementById('bookDescription').value = '';
     document.getElementById('pagesNumber').value = '';
 }
+function delBook() {
+   books.splice(index, 1);
+    clearInputs();
+    showbooks(books);
+}
