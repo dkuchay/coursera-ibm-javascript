@@ -31,7 +31,7 @@ xhr.responseType = 'json';
 xhr.onload =  function () { 
     var articles = xhr.response.articles;
     var articlesDiv = document.getElementById('articles');
-   
+    // something goes here
  };
 
 // Now, you need to iterate health data to fetch on the front page using loops. For this, you need to use the forEach array method as follows:
